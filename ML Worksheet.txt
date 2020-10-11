@@ -2,4 +2,29 @@
 2. D
 3. B
 4. C
-5. 
+5. B
+6. C
+7. B
+8. B,C
+9. Gini index and entropy are the criteria for calculating information gain. Decision tree algorithms use information gain to split a node.Both gini and entropy are measures 
+   of impurity of a node. 
+10. Random Forest is a tree-based machine learning algorithm that leverages the power of multiple decision trees for making decisions.The Random Forest Algorithm combines the
+    output of multiple Decision Trees to generate the final output.
+    A decision tree is simply a series of sequential decisions made to reach a specific result.It makes a series of decisions based on a set of features/attributes present in
+    the data.
+11. Scaling is a step of Data Pre Processing which is applied to independent variables or features of data. It basically helps to normalise the data within a particular range.
+    Sometimes, it also helps in speeding up the calculations in an algorithm.
+    Two techniques used for scaling are:
+    1. Nominal Scales
+    2. Interval Scales
+12. Advantages which scaling provides in optimization using gradient descent algorithm:
+    1.We can use fixed learning rate during training without worrying about learning rate decay.
+    2.It has straight trajectory towards the minimum and it is guaranteed to converge in theory to the global minimum if the loss function is convex and to a local minimum if 
+      the loss function is not convex.
+13. NO, In highly imbalanced data the alteraton will bw more therefore we use roc-metric, precision or recall for better results.
+14. The F-score is the harmonic mean of the precision and recall. The highest possible value of F is 1, indicating perfect precision and recall, and the lowest possible value is
+    0, if either the precision or the recall is zero.
+    Mathematical formula:
+     F = 2 * (precision * recall) / (precision + recall)
+15. The fit() function calculates the values of these parameters. The transform function applies the values of the parameters on the actual data and gives the normalized value.
+    The fit_transform() function performs both in the same step. Note that the same value is got whether we perform in 2 steps or in a single step.
